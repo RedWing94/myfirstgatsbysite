@@ -78,7 +78,7 @@ export default function Example() {
                     <div>
                       <img
                         className="h-8 w-auto"
-                        src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                        src="https://lh3.googleusercontent.com/ftHz7PJYfzNTWhmSM9mrJ0XIknExJNaOdNHGoyfV6-7gRxpOip1XMgu48NCBHINektCeaQQy2s7Y1gLdBmw-hw6VKiE3fYtRSzMf7ms4OWMStNK5stvIs3Mwe8kl1fV4ZfxMDqqn4E6uLr7rnI6W2KdgkLyEZET7VLdk3aFuf5_az5bvgweuzLIGys0whec-nZqgTk_sNxGUzwpc5VGmG6hy7XzZtgotZKcSX_8nyJcuXvW5d6UpssZVIHXJqP4uPm4V2li8-ZZY_vF0__Wwkkr3dSc3bo8PNk9HT1ecA__YQH9oz4sOoDMTvHmMrEFOXkRN-1YD8JFu3L72BAdLOL1-0_o9iTIKnz6NY1rG0G_fEiiGbum0MemLSc6blKvkUP3IxZAeWYRKGq13HKZq45BIg0gnCuU_xqWlyuMhVI-nLAtALI0uTo_yf2ZlBuWdgovcDDttbLfeVFE9FOo9-seAjMPGRJSEOJM3iDb9WmyI1pu_QKcr9G66v_Shtf77rwZo8aJzXOYHLC2lQbQT1_lPncTYwMQafy91ld7w8d3QuudHVhNgsMsn3YYIMoR2nNfTY3jeBed1bJMJAWgfrlRg3rw9_ZPF5BRX_BzdGoiTVRf2_2XBpmhvIkX5k6aFhaMtQXidaR7CDPTEN42Thq6lWIMUYxcYAabuWi_9PnSeZZr9ehkOwR2kUcdGXo1OmeI0qYdWvEwfHneoesgenqnvaNnPele-29RWtaOSaIGxXTPU9s4ekHqPhvL2JtVpjdFFp8SVlAT9CBTNjOOxh0aevxTsI9VgT4ugJ-EX0FWE1u0MzdfzK1BCp4j3Um_W8NS6=w1869-h975-no?authuser=0"
                         alt=""
                       />
                     </div>
