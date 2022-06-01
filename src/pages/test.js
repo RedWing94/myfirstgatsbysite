@@ -14,6 +14,7 @@
   }
   ```
 */
+import * as React from 'react'
 import { Fragment } from 'react'
 import { Menu, Popover, Transition } from '@headlessui/react'
 import { SearchIcon } from '@heroicons/react/solid'
