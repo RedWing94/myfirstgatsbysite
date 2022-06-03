@@ -64,7 +64,7 @@ export default function Example() {
                         <a href="#">
                           <img
                               className="block h-8 w-auto"
-                              src="https://tailwindui.com/img/logos/workflow-mark.svg?color=indigo&shade=600"
+                              src="https://lh3.googleusercontent.com/BOADL7517U_ysInJqWkCskcF-UmrIpLQxiFtdylyWPg1SYlQ1hbRAEtqCxAw3i8oq52_QnyyceNeVlGelegp2oVB7A3swix4hId0kGiHVxBXxlTOgPUVz7u2atiwrbMq9X-MSbO-tLBzlfjfWAoMhqHfjVMeO1R_y11oSC5sFEjRLz1Nda17wGyGU5e2Ex2w7_VX-msVcdTlKSjVEXpAuv9nXaOwxJsVPfyqG4yjLRg7S3cFYaNlr4Bdo0Y7I1N29R5f1y8Btmr8-If9vzncnrKb6zcBFMnHw2zDF4fXAFScUaebGvh0bs7ZBNnn2fIYGfepUKfLJ5UVmU7SBWknVUAet8fOnUswpJ4UUpOiubaj0XGHoSh82C9ciivA81CEkRhkXJti-i2UdjDQXb_I_nZQHuSLe_I1dyLPKqzd9E4XDHixCWl7SCfcjKWQmCi6LS6RmsP9BVgui5iOzNSprKs8EffcMg3VrOzyqidRM3SkGOGCXBEi3vgAO2pJ0JbCRYQl3MyuRSpsSltxpBMjlhD7HaK3nq9LYGYznUQaGKbm2TH6zSuQ_SGoEqchMS4QU1-EsOwMiu6nTAprgjUPncesFJ3hDPUhX7wAuoDhtvsz2yTq87SQdvwwek3APR3gUkSGuGWCMj2pFc-fVg-Q3X6g6jnCFlXLahiPXJrbVRKteh8gcpyby1Iro1oXpxRvT9XbSxExy4gKUdFfWa8j8NisvQF6crpAHu4R-uVF1kFn0DML7WQliIS24vaeyXs5VG2kc4bzxZqhTRZp8nuzDgwHbXxDtAWYcl-UH-b7KuIUwkodYWmfkDaSnbfBLoy7TrvH=w1869-h975-no?authuser=0"
                               alt="Workflow"
                           />
                         </a>
@@ -83,8 +83,8 @@ export default function Example() {
                             <input
                                 id="search"
                                 name="search"
-                                className="block w-full bg-white border border-gray-300 rounded-md py-2 pl-10 pr-3 text-sm placeholder-gray-500 focus:outline-none focus:text-gray-900 focus:placeholder-gray-400 focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-                                placeholder="Search"
+                                className="block w-full bg-white border border-gray-300 rounded-md py-2 pl-10 pr-3 text-sm placeholder-gray-500 focus:outline-none focus:text-gray-900 focus:placeholder-gray-400 focus:ring-1 focus:ring-cyan-500 focus:border-cyan-500 sm:text-sm"
+                                placeholder="Search Inventory"
                                 type="search"
                             />
                           </div>
@@ -111,48 +111,13 @@ export default function Example() {
                         <BellIcon className="h-6 w-6" aria-hidden="true" />
                       </a>
 
-                      {/* Profile dropdown */}
-                      <Menu as="div" className="flex-shrink-0 relative ml-5">
-                        <div>
-                          <Menu.Button className="bg-white rounded-full flex focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                            <span className="sr-only">Open user menu</span>
-                            <img className="h-8 w-8 rounded-full" src={user.imageUrl} alt="" />
-                          </Menu.Button>
-                        </div>
-                        <Transition
-                            as={Fragment}
-                            enter="transition ease-out duration-100"
-                            enterFrom="transform opacity-0 scale-95"
-                            enterTo="transform opacity-100 scale-100"
-                            leave="transition ease-in duration-75"
-                            leaveFrom="transform opacity-100 scale-100"
-                            leaveTo="transform opacity-0 scale-95"
-                        >
-                          <Menu.Items className="origin-top-right absolute z-10 right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 py-1 focus:outline-none">
-                            {userNavigation.map((item) => (
-                                <Menu.Item key={item.name}>
-                                  {({ active }) => (
-                                      <a
-                                          href={item.href}
-                                          className={classNames(
-                                              active ? 'bg-gray-100' : '',
-                                              'block py-2 px-4 text-sm text-gray-700'
-                                          )}
-                                      >
-                                        {item.name}
-                                      </a>
-                                  )}
-                                </Menu.Item>
-                            ))}
-                          </Menu.Items>
-                        </Transition>
-                      </Menu>
+                      
 
                       <a
                           href="#"
-                          className="ml-6 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                          className="ml-6 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-cyan-500 hover:bg-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                       >
-                        New Project
+                        Contact Us
                       </a>
                     </div>
                   </div>
